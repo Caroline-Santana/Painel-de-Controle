@@ -24,15 +24,18 @@ main{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    
 }
 .item-container{
     text-decoration: none;
+    color: #0009;
     width: 250px;
-    height: 50px;
+    height: 100px;
     display: flex;
     align-items: center;
     gap: 15px;
-    padding: 4px;
+    padding: 15px;
+    
 }
 .item-container:hover{
     box-shadow: 0px 0px 5px #0009;
@@ -43,4 +46,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.rodape{
+    font-size: 40px;
 }
